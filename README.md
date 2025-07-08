@@ -49,5 +49,16 @@ Create a persistence script to restore network and nftables settings on reboot:
 <img src="comp1-restore_config.sh.jpg" alt="comp1yaml" border="0" />
 Make the script executable and schedule it to run on reboot: sudo chmod +x /usr/local/bin/restore_config.sh
 use sudo reboot to confirm persistent.
+## Configuring Computer 2
+Configure yaml file:
+<img src="comp2yaml.jpg" alt="comp1yaml" border="0" />
 
+Use command sudo netplan apply to save configuration. Use command ip -br a to confirm.
+<img src="comp2ipaddr.jpg" alt="comp1yaml" border="0" />
+
+## Successful Pings 
+Computer 1 and Computer 2 have internet access:
+<img src="comp1-restore_config.sh.jpg" alt="comp1yaml" border="0" />
+Both computers can ping eachother:
+<img src="comp1-restore_config.sh.jpg" alt="comp1yaml" border="0" />
 
