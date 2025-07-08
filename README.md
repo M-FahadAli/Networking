@@ -6,7 +6,7 @@ In this project, we explore virtualization and network security by setting up tw
 
 ## Setup
 Download and install VirtualBox from the official website. Create two VMs running Ubuntu 22.04 LTS to establish the networked environment:
-<img src="two vms.jpg" alt="two vms.jpg" border="0" />
+<img src="twovms.jpg" alt="two vms.jpg" border="0" />
 
 ## Languages and Utilities Used
 - Bash
