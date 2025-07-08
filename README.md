@@ -43,6 +43,7 @@ sudo systemctl enable nftables
 sudo systemctl start nftables
 sudo nft list ruleset
 
+
 Create a persistence script to restore network and nftables settings on reboot: 
 <img src="comp1-restore_config.sh.jpg" alt="comp1yaml" border="0" />
 Make the script executable and schedule it to run on reboot: sudo chmod +x /usr/local/bin/restore_config.sh
