@@ -52,6 +52,7 @@ sudo nft list ruleset
 Create a persistence script to restore network and nftables settings on reboot. Make the script executable and schedule it to run at boot with:
 sudo chmod +x /usr/local/bin/restore_config.sh
 use sudo reboot to confirm persistent.
+
 ## Configuring Computer 2
 Configure ClientVM’s network by assigning a static IP address to its internal network interface (ens37) via the Netplan configuration file at /etc/netplan/99_config.yaml:
 <img src="comp2yaml.jpg" alt="comp1yaml" border="0" />
