@@ -11,9 +11,9 @@ Download and install VirtualBox from the official website. Create two VMs runnin
 ## Languages and Utilities Used
 - Bash
 - YAML
-- VirtualBox
+- VMware Workstation
 - UFW 
 
 ## Environments Used
 - **Ubuntu 22.04 LTS** (for both VMs)
-- **VirtualBox 7.0**
+- **VMware Workstation**
