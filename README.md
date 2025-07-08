@@ -58,7 +58,7 @@ Use command sudo netplan apply to save configuration. Use command ip -br a to co
 
 ## Successful Pings 
 Computer 1 and Computer 2 have internet access:
-<img src="comp1-restore_config.sh.jpg" alt="comp1yaml" border="0" />
+<img src="succesful-google-ping.jpg" alt="comp1yaml" border="0" />
 Both computers can ping eachother:
-<img src="comp1-restore_config.sh.jpg" alt="comp1yaml" border="0" />
+<img src="vms-ping-eachother.jpg" alt="comp1yaml" border="0" />
 
