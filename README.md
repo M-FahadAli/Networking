@@ -25,6 +25,10 @@ Assign a static IP address to the internal network interface (ens37) and configu
 <img src="comp1yaml.jpg" alt="comp1yaml" border="0" />
 
 Use command sudo netplan apply to save configuration. Use command ip -br a to confirm.
+
+<img src="comp1-ipadd.jpg" alt="comp1ip" border="0" />
+
+
 ## Configure IP Forwarding
 Enable IP forwarding to allow ServerVM to route traffic for ClientVM. Modify the system configuration to ensure persistence across reboots by editing /etc/sysctl.conf to uncomment or add the line net.ipv4.ip_forward = 1:
 
