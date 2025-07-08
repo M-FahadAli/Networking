@@ -31,13 +31,12 @@ Use command sudo netplan apply to save configuration. Use command ip -br a to co
 ## Configure IP Forwarding
 Enable IP forwarding to allow ServerVM to route traffic for ClientVM. Modify the system configuration to ensure persistence across reboots by editing /etc/sysctl.conf to uncomment or add the line net.ipv4.ip_forward = 1:
 <img src="compIPforwarding.jpg" alt="comp1ipforwarding" border="0" />
-
 Apply the changes with the following commands: sudo sysctl -w net.ipv4.ip_forward=1
 sudo nano /etc/sysctl.conf
 sudo sysctl -p
 
-<img src="comp1yaml.png" alt="comp1yaml" border="0" />
-
+## Configure NFTables On Computer 1
+<img src="comp1-nftables.jpg" alt="comp1yaml" border="0" />
 make the configuration executable, apply the rules, and ensure persistence: sudo chmod +x /etc/nftables.conf
 sudo nft -f /etc/nftables.conf
 sudo systemctl enable nftables
