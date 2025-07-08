@@ -1,4 +1,4 @@
-# VirtualBox: Dual VM Network Configuration and Firewall Setup
+# Dual VM Network Configuration and Firewall Setup
 <img src="virtualbox_network_banner.jpg" alt="Project Banner" border="0" />
 
 ## Description
