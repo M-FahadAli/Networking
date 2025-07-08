@@ -54,7 +54,7 @@ Configure yaml file:
 <img src="comp2yaml.jpg" alt="comp1yaml" border="0" />
 
 Use command sudo netplan apply to save configuration. Use command ip -br a to confirm.
-<img src="comp2ipaddr.jpg" alt="comp1yaml" border="0" />
+<img src="comp2-ipaddr.jpg" alt="comp1yaml" border="0" />
 
 ## Successful Pings 
 Computer 1 and Computer 2 have internet access:
