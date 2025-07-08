@@ -37,6 +37,7 @@ sudo sysctl -p
 
 ## Configure NFTables On Computer 1
 <img src="comp1-nftables.jpg" alt="comp1yaml" border="0" />
+
 make the configuration executable, apply the rules, and ensure persistence: sudo chmod +x /etc/nftables.conf
 sudo nft -f /etc/nftables.conf
 sudo systemctl enable nftables
